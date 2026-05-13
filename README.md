@@ -12,30 +12,11 @@ folosind formatul LiteRT (TFLite).
 - FER-2013 (varianta originală și augmentată)
 - RAF-DB
 - CK+
-
-## Structura notebook-urilor
-
-### FER-2013 Augmented
-- `mobilenet_gpu_fer_augmented.ipynb`
-- `vcnn_gpu_fer_2013_augmented.ipynb`
-- `vcnn_tpu_fer_2013_augmented.ipynb`
-- `vrescnn_fer_augmented_gpu.ipynb`
-- `vrescnn_tpu_fer_2023_augmented.ipynb`
-- `efficientnet_fer_augmented_tpu.ipynb`
-
-### FER-2013 Original
-- `vcnn_gpu_fer_original.ipynb`
-- `vcnn_tpu.ipynb`
-- `vrescnn_tpu.ipynb`
-
-### RAF-DB
-- `notebook_rafdb_gpu.ipynb`
-
-### CK+
-- `notebook_ckplus_gpu.ipynb`
-
-### Conversie LiteRT
-- `conversie_android_tflite.ipynb`
+## Arhitecturi utilizate
+VCNN
+VRESCNN
+MobileNet
+EfficientNet
 
 ## Modele finale selectate
 | Model | Bază de date | Acuratețe |
