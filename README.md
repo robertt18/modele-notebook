@@ -92,8 +92,8 @@ RAF_DB/
 │   ├── imagini_rezultate/
 │   └── model.keras
 └── notebook_Raf_DB_GPU
-
-Tabel excel comparatii global
+fisier README.md
+rezultate_antrenari.xlsx
 ```
   
 ## Toate modelele antrenate
