@@ -23,11 +23,11 @@ EfficientNet
 ```
 CKPLUS/
 ├── EfficientNet/
-│   ├── imagini_rezultate/
-│   │   ├── raport_performanta.png
-│   │   ├── matrice_confuzie.png
-│   │   ├── grafice_acuratete_eroare.png
-│   │   └── testare_imagine_test.png
+│   ├── imagini_rezultate/ la fel pentru toate arhitecturile
+│   │   ├── raportul de performanţă după antrenare
+│   │   ├── matricea de confuzie + raportul de clasificare detaliat
+│   │   ├── graficele pentru evoluţia acurateţii şi scăderea erorii
+│   │   └── testarea unei imagini din setul de test
 │   └── model.keras
 ├── MobileNet/
 │   ├── imagini_rezultate/
@@ -63,6 +63,7 @@ RAF_DB/
 ├── VCNN/
 ├── VRESCNN/
 └── notebook_RAFDB.ipynb
+Tabel excel comparatii global
 ```
   
 ## Toate modelele antrenate
