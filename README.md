@@ -82,9 +82,9 @@ RAF_DB/
 │   └── model.keras
 ├── VCNN/
 │   ├── gpu
-│       ├── imagini_rezultate/
-│       └── model.keras
-│   ├── tpu
+│   |    ├── imagini_rezultate/
+│   |    └── model.keras
+│   └── tpu
 │       ├── imagini_rezultate/
 |       ├── notebook - raf_db_tpu
 │       └── model.keras
