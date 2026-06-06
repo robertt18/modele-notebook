@@ -18,97 +18,52 @@ VRESCNN
 MobileNet
 EfficientNet
 
-## Structură:
-CKPLUS
-  -EfficientNet
-    -imagini rezultate
-      -raportul de performanţă după antrenare
-      -matricea de confuzie + raportul de clasificare detaliat
-      -graficele pentru evoluţia acurateţii şi scăderea erorii
-      -testarea unei imagini din setul de test
-    -modelul salvat in format.keras
-  -MobileNet
-    -imagini rezultate
-      -raportul de performanţă după antrenare
-      -matricea de confuzie + raportul de clasificare detaliat
-      -graficele pentru evoluţia acurateţii şi scăderea erorii
-      -testarea unei imagini din setul de test
-    -modelul salvat in format.keras
-  -VCNN
-    -imagini rezultate
-      -raportul de performanţă după antrenare
-      -matricea de confuzie + raportul de clasificare detaliat
-      -graficele pentru evoluţia acurateţii şi scăderea erorii
-      -testarea unei imagini din setul de test
-    -modelul salvat in format.keras
-  -VRESCNN
-    -imagini rezultate
-      -raportul de performanţă după antrenare
-      -matricea de confuzie + raportul de clasificare detaliat
-      -graficele pentru evoluţia acurateţii şi scăderea erorii
-      -testarea unei imagini din setul de test
-    -modelul salvat in format.keras
-  -notebook-ul pentru baza de date CKPLUS cu toate arhitecturile
-FER_2013_original_si_augmented
-  -EfficientNet
-    -EfficentNet_gpu
-      -fer_2013_augmented
-        -modelul salvat in format .keras
-        -notebook-ul  
-  -MobileNet
-    -fer_2013_augmented
-      -modelul salvat in format .keras
-      - notebook-ul 
-  -VCNN
-    -vcnn_gpu
-      -fer_2013_augmented
-        -modelul in format in .keras
-        -notebook-ul 
-      -fer_2013_original
-       - modelul in format .keras
-       -notebook-ul
-    -vcnn_tpu
-     -fer_2013_augmented
-       -modelul in format .keras
-       -notebook-ul
-     -fer_2013_original
-      -modelul in format .keras 
-      -notebook-ul
-  -VRESCNN
-    -Vrescnn_gpu
-      -modelul in format .keras
-      -notebook-ul
-    -vrescnn_tpu
-     -fer_2013_augmented
-       -notebook
-       -model .keras
-     -fer_2013_original
-       -model .keras
-       -notebook
-Raf-DB
-  -MobileNet
-    -imagini rezultate
-      -raportul de performanţă după antrenare
-      -matricea de confuzie + raportul de clasificare detaliat
-      -graficele pentru evoluţia acurateţii şi scăderea erorii
-      -testarea unei imagini din setul de test
-    -modelul salvat in format.keras
-  -VCNN
-    -imagini rezultate
-      -raportul de performanţă după antrenare
-      -matricea de confuzie + raportul de clasificare detaliat
-      -graficele pentru evoluţia acurateţii şi scăderea erorii
-      -testarea unei imagini din setul de test
-    -modelul salvat in format.keras
-  -VRESCNN
-    -imagini rezultate
-      -raportul de performanţă după antrenare
-      -matricea de confuzie + raportul de clasificare detaliat
-      -graficele pentru evoluţia acurateţii şi scăderea erorii
-      -testarea unei imagini din setul de test
-    -modelul salvat in format.keras
-  -notebook-ul pentru baza de date Raf-DB cu toate arhitecturile
-  Tabel excel comparatii global
+## Structură
+
+```
+CKPLUS/
+├── EfficientNet/
+│   ├── imagini_rezultate/
+│   │   ├── raport_performanta.png
+│   │   ├── matrice_confuzie.png
+│   │   ├── grafice_acuratete_eroare.png
+│   │   └── testare_imagine_test.png
+│   └── model.keras
+├── MobileNet/
+│   ├── imagini_rezultate/
+│   └── model.keras
+├── VCNN/
+│   ├── imagini_rezultate/
+│   └── model.keras
+├── VRESCNN/
+│   ├── imagini_rezultate/
+│   └── model.keras
+└── notebook_CKPLUS.ipynb
+
+FER_2013/
+├── EfficientNet/
+│   └── fer_2013_augmented/
+│       ├── model.keras
+│       └── notebook.ipynb
+├── MobileNet/
+│   └── fer_2013_augmented/
+│       ├── model.keras
+│       └── notebook.ipynb
+├── VCNN/
+│   ├── vcnn_gpu/
+│   │   ├── fer_2013_augmented/
+│   │   └── fer_2013_original/
+│   └── vcnn_tpu/
+│       ├── fer_2013_augmented/
+│       └── fer_2013_original/
+└── VRESCNN/
+
+RAF_DB/
+├── MobileNet/
+├── VCNN/
+├── VRESCNN/
+└── notebook_RAFDB.ipynb
+```
   
 ## Toate modelele antrenate
 
