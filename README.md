@@ -18,6 +18,98 @@ VRESCNN
 MobileNet
 EfficientNet
 
+## Structură:
+CKPLUS
+  -EfficientNet
+    -imagini rezultate
+      -raportul de performanţă după antrenare
+      -matricea de confuzie + raportul de clasificare detaliat
+      -graficele pentru evoluţia acurateţii şi scăderea erorii
+      -testarea unei imagini din setul de test
+    -modelul salvat in format.keras
+  -MobileNet
+    -imagini rezultate
+      -raportul de performanţă după antrenare
+      -matricea de confuzie + raportul de clasificare detaliat
+      -graficele pentru evoluţia acurateţii şi scăderea erorii
+      -testarea unei imagini din setul de test
+    -modelul salvat in format.keras
+  -VCNN
+    -imagini rezultate
+      -raportul de performanţă după antrenare
+      -matricea de confuzie + raportul de clasificare detaliat
+      -graficele pentru evoluţia acurateţii şi scăderea erorii
+      -testarea unei imagini din setul de test
+    -modelul salvat in format.keras
+  -VRESCNN
+    -imagini rezultate
+      -raportul de performanţă după antrenare
+      -matricea de confuzie + raportul de clasificare detaliat
+      -graficele pentru evoluţia acurateţii şi scăderea erorii
+      -testarea unei imagini din setul de test
+    -modelul salvat in format.keras
+  -notebook-ul pentru baza de date CKPLUS cu toate arhitecturile
+FER_2013_original_si_augmented
+  -EfficientNet
+    -EfficentNet_gpu
+      -fer_2013_augmented
+        -modelul salvat in format .keras
+        -notebook-ul  
+  -MobileNet
+    -fer_2013_augmented
+      -modelul salvat in format .keras
+      - notebook-ul 
+  -VCNN
+    -vcnn_gpu
+      -fer_2013_augmented
+        -modelul in format in .keras
+        -notebook-ul 
+      -fer_2013_original
+       - modelul in format .keras
+       -notebook-ul
+    -vcnn_tpu
+     -fer_2013_augmented
+       -modelul in format .keras
+       -notebook-ul
+     -fer_2013_original
+      -modelul in format .keras 
+      -notebook-ul
+  -VRESCNN
+    -Vrescnn_gpu
+      -modelul in format .keras
+      -notebook-ul
+    -vrescnn_tpu
+     -fer_2013_augmented
+       -notebook
+       -model .keras
+     -fer_2013_original
+       -model .keras
+       -notebook
+Raf-DB
+  -MobileNet
+    -imagini rezultate
+      -raportul de performanţă după antrenare
+      -matricea de confuzie + raportul de clasificare detaliat
+      -graficele pentru evoluţia acurateţii şi scăderea erorii
+      -testarea unei imagini din setul de test
+    -modelul salvat in format.keras
+  -VCNN
+    -imagini rezultate
+      -raportul de performanţă după antrenare
+      -matricea de confuzie + raportul de clasificare detaliat
+      -graficele pentru evoluţia acurateţii şi scăderea erorii
+      -testarea unei imagini din setul de test
+    -modelul salvat in format.keras
+  -VRESCNN
+    -imagini rezultate
+      -raportul de performanţă după antrenare
+      -matricea de confuzie + raportul de clasificare detaliat
+      -graficele pentru evoluţia acurateţii şi scăderea erorii
+      -testarea unei imagini din setul de test
+    -modelul salvat in format.keras
+  -notebook-ul pentru baza de date Raf-DB cu toate arhitecturile
+  Tabel excel comparatii global
+  
 ## Toate modelele antrenate
 
 | Arhitectură | Dataset | Accelerator | Acuratețe | Timp antrenare | Parametri | Latență |
