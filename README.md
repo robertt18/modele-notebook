@@ -52,9 +52,9 @@ FER_2013_original_si_augmented/
 │       └── notebook_mobilenet_gpu
 ├── VCNN/
 │   ├── vcnn_gpu/
-│   │   └── fer_2013_augmented/
-|   |        ├── model .keras
-|   |        └── notebook_vcnn_fer_agumented_gpu
+│   │   ├── fer_2013_augmented/
+|   |   |    ├── model .keras
+|   |   |    └── notebook_vcnn_fer_agumented_gpu
 │   │   └── fer_2013_original/
 |   |         ├── model .keras
 |   |         └── notebook_vcnn_fer_original_gpu
