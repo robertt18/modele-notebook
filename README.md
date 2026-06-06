@@ -60,9 +60,16 @@ FER_2013/
 
 RAF_DB/
 ├── MobileNet/
+│   ├── imagini_rezultate/
+│   └── model.keras
 ├── VCNN/
+│   ├── imagini_rezultate/
+│   └── model.keras
 ├── VRESCNN/
-└── notebook_RAFDB.ipynb
+│   ├── imagini_rezultate/
+│   └── model.keras
+└── notebook_CKPLUS.ipynb
+
 Tabel excel comparatii global
 ```
   
