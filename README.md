@@ -43,7 +43,7 @@ CKPLUS/
 FER_2013_original_si_augmented/
 ├── EfficientNet/
 │   └── EfficentNet_gpu/
-│       ├── fer_2013_augmented
+│       └── fer_2013_augmented
 │            ├── model .keras
 |            └── notebook_efficientnet_gpu
 ├── MobileNet_GPU/
