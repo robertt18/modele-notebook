@@ -38,37 +38,60 @@ CKPLUS/
 ├── VRESCNN/
 │   ├── imagini_rezultate/
 │   └── model.keras
-└── notebook_CKPLUS.ipynb
+└── notebook_CKPLUS_gpu
 
-FER_2013/
+FER_2013_original_si_augmented/
 ├── EfficientNet/
+│   └── EfficentNet_gpu/
+│       ├── fer_2013_augmented
+│            ├── model .keras
+|            └── notebook_efficientnet_gpu
+├── MobileNet_GPU/
 │   └── fer_2013_augmented/
 │       ├── model.keras
-│       └── notebook.ipynb
-├── MobileNet/
-│   └── fer_2013_augmented/
-│       ├── model.keras
-│       └── notebook.ipynb
+│       └── notebook_mobilenet_gpu
 ├── VCNN/
 │   ├── vcnn_gpu/
 │   │   ├── fer_2013_augmented/
+|   |        ├── model .keras
+|   |        └── notebook_vcnn_fer_agumented_gpu
 │   │   └── fer_2013_original/
+|   |         ├── model .keras
+|   |         └── notebook_vcnn_fer_original_gpu
 │   └── vcnn_tpu/
 │       ├── fer_2013_augmented/
+|       |    ├── model .keras
+|       |    └── notebook_vcnn_tpu_fer_augmented
 │       └── fer_2013_original/
+|            ├── model .keras
+|            └── notebook_vcnn_tpu_fer_original
 └── VRESCNN/
-
+      ├── Vrescnn_gpu/
+      │   ├── model .keras
+      |   └── notebook_vrescnn_fer_augmented_gpu
+      └──vrescnn_tpu/
+           ├──fer_2013_augmented
+           |    ├── notebook vrescnn_fer_augmented_tpu
+           |    └── model .keras
+           └──fer_2013_original
+                ├── model .keras
+                └── notebook_vrescnn_fer_original_tpu
 RAF_DB/
 ├── MobileNet/
 │   ├── imagini_rezultate/
 │   └── model.keras
 ├── VCNN/
-│   ├── imagini_rezultate/
-│   └── model.keras
+│   ├── gpu
+│       ├── imagini_rezultate/
+│       └── model.keras
+│   ├── tpu
+│       ├── imagini_rezultate/
+|       ├── notebook - raf_db_tpu
+│       └── model.keras
 ├── VRESCNN/
 │   ├── imagini_rezultate/
 │   └── model.keras
-└── notebook_CKPLUS.ipynb
+└── notebook_Raf_DB_GPU
 
 Tabel excel comparatii global
 ```
